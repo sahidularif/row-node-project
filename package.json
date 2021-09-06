@@ -1,0 +1,16 @@
+{
+  "name": "row-node-project",
+  "version": "1.0.0",
+  "description": "A RESTFul API to monitor up or down time of user define links",
+  "main": "server.js",
+  "repository": "https://github.com/sahidularif/row-node-project",
+  "author": "MS-ARIF",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon server"
+  }
+}
