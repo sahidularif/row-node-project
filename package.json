@@ -11,6 +11,7 @@
     "nodemon": "^2.0.12"
   },
   "scripts": {
-    "start": "nodemon server"
+    "start": "NODE_ENV=staging nodemon server",
+    "production": "NODE_ENV=production nodemon server"
   }
 }
